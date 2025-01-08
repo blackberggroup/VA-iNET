@@ -1,0 +1,33 @@
+/*
+----------------------------------------
+Pages Index SCSS
+----------------------------------------
+Commented out as an example. Be sure to include scss files in this directory.
+
+@forward "masthead";
+*/
+
+#sss-title{
+
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+
+} 
+h2{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.6;
+} 
+
+.sss-title{
+    background:  url(../img/sss/title-bg.png) no-repeat !important;
+}
+.sss-title-btm-border{
+    background:  url(../img/sss/title-btm-border.png) no-repeat !important;
+}
+
+
+
+}
