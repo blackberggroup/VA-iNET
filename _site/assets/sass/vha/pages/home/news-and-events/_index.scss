@@ -1,0 +1,149 @@
+@use "uswds-core" as *;
+
+#inet-news {
+    
+    background: linear-gradient(78deg, #015C5A 5.29%, #028A86 78.25%, #7FB135 97.64%);
+
+    .usa-button {
+        width: auto;
+        font-size: 18px;
+        box-shadow: inset 0 0 0 2px #fff;
+        color: #fff;
+        background-color: transparent;
+    }
+
+    .usa-button:hover {
+        box-shadow: inset 0 0 0 2px #dcdcdc;
+        color: #dcdcdc;
+        background-color: transparent;
+    }
+
+    h2 {
+        color:#fff;
+    }
+
+  a {
+    text-decoration: none !important;
+    color: #1B1B1B;
+  }
+
+  .usa-card__body {
+    text-align: left;
+  }
+
+  .usa-card__container {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    height: 99% !important;
+    background: #fff !important;
+    border: 1px solid var(--Base-base-lighter, #DFE1E2);
+  }
+
+  .usa-card__media img {
+    border-radius: 4px 4px 0px 0px;
+  }
+
+  .usa-card__body > :first-child, .usa-card__header > :first-child {
+    margin-top: 14px !important;
+  }
+
+  .owl-nav {
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .owl-prev, .owl-next {
+    border-radius: 4px;
+    background: #7FB135
+  }
+
+  .owl-carousel.owl-loaded {
+    display: block;
+    padding: 0;
+  }
+
+  @include at-media(mobile) { // 320px
+    .owl-carousel .owl-nav button.owl-prev {
+        display: inline !important;
+        top: 97%;
+        left: 30.5%;
+        border-radius: 4px !important;
+        background: #7FB135 !important;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        display: inline !important;
+        top: 97%;
+        right: 30.5%;
+        border-radius: 4px !important;
+        background: #7FB135 !important;
+    }
+}
+
+@include at-media(mobile-lg) { // 480px
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 97%;
+        left: 37%;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        top: 97%;
+        right: 37%;
+    }
+}
+
+@include at-media(tablet) { // 640px
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 97%;
+        left: 40.5%;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        top: 97%;
+        right: 40.5%;
+    }
+}
+
+@include at-media(tablet-lg) { // 880px
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 97%;
+        left: 43%;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        top: 97%;
+        right: 43%;
+    }
+}
+
+@include at-media(desktop) { // 1024px
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 97%;
+        left: 44%;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        top: 97%;
+        right: 44%;
+    }
+}    
+
+@include at-media(desktop-lg) { // 1200px
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 97%;
+        left: 45%;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        top: 97%;
+        right: 45%;
+    }
+}
+
+@include at-media(widescreen) { // 1400px
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 97%;
+        left: 45.5%;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        top: 97%;
+        right: 45.5%;
+    }
+}
+}
