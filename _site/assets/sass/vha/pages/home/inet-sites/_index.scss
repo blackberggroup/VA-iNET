@@ -1,0 +1,13 @@
+@use "uswds-core" as *;
+.site-location-map .usa-card__container {
+    background-color: #fff;
+    border: none;
+}
+
+.map-gradient {
+    background: linear-gradient(80deg, #015B58 4.69%, #018A86 75.84%, #7FB135 100%);
+}
+
+.site-location-map strong {
+    color: #008480;
+}
