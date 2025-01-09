@@ -1,0 +1,122 @@
+@use "uswds-core" as *;
+
+@include at-media(mobile) {
+    .program-video {
+        margin-bottom: -15rem;
+    }
+    .program-video__img-container {
+        top: -14em;
+
+        .vha-video__play-icon {
+            top: 65% !important;
+        }
+    }
+    .offset-background {
+        background: #EDF3D8;
+        height: 14em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(mobile-lg) {
+    .program-video {
+        margin-bottom: -15rem;
+    }
+    .program-video__img-container {
+        top: -19em;
+
+        .vha-video__play-icon {
+            top: 67% !important;
+        }
+    }
+    .offset-background {
+        background: #EDF3D8;
+        height: 19em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(tablet) {
+    .program-video {
+        margin-bottom: -20rem;
+    }
+    .program-video__img-container {
+        top: -23em;
+
+        .vha-video__play-icon {
+            top: 63% !important;
+        }
+    }
+    .offset-background {
+        background: #EDF3D8;
+        height: 23em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(tablet-lg) {
+    .program-video {
+        margin-bottom: -30rem;
+    }
+    .program-video__img-container {
+        top: -27em;
+
+        .vha-video__play-icon {
+            top: 60% !important;
+        }
+    }
+    .offset-background {
+        background: #EDF3D8;
+        height: 27em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(desktop) {
+    .program-video {
+        margin-bottom: -30rem;
+    }
+    .program-video__img-container {
+        top: -30em;
+    }
+    .offset-background {
+        background: #EDF3D8;
+        height: 30em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(desktop-lg) {
+    .program-video {
+        margin-bottom: -40rem;
+    }
+    .program-video__img-container {
+        top: -35em;
+    }
+    .offset-background {
+        background: #EDF3D8;
+        height: 35em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(widescreen) {
+    .program-video {
+        margin-bottom: -40rem;
+    }
+    .program-video__img-container {
+        top: -36em;
+    }
+    .offset-background {
+        background: #EDF3D8;
+        height: 36em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
