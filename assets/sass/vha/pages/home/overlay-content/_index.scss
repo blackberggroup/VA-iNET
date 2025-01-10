@@ -3,6 +3,7 @@
 
 .overlay-content {
 
+
     &__wrapper {
         z-index: 5;
         border-bottom-left-radius: 0;
@@ -15,17 +16,21 @@
         }        
     }
 
-    &__wrapper2 {
-        z-index: 5;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-        background-color: #E2EEDD;
-
-        @include at-media(tablet) {
-            border-bottom-left-radius: .5rem;
-            border-bottom-right-radius: .5rem;
-        }        
+    .vha-darker-green {
+        background-color: #E2EEDD !important;
     }
+
+    // &__wrapper2 {
+    //     z-index: 5;
+    //     border-bottom-left-radius: 0;
+    //     border-bottom-right-radius: 0;
+    //     background-color: #E2EEDD;
+
+    //     @include at-media(tablet) {
+    //         border-bottom-left-radius: .5rem;
+    //         border-bottom-right-radius: .5rem;
+    //     }        
+    // }
 
     &__image-column {
         position: relative;
@@ -50,9 +55,9 @@
     }
 
     &__image {
-        // background-color: #F8F0F9;
         border-bottom-left-radius: .5rem;
         border-bottom-right-radius: .5rem;
+        background-color: #EDF3D8;
 
         img {
             display: block;
@@ -73,7 +78,7 @@
 
         &.logo-stroke-1 {
             top: -30px;
-            left: -20px;
+            left: -95px;
         }
 
         &.logo-stroke-2 {
@@ -90,7 +95,7 @@
 
             &.logo-stroke-1 {
                 top: -30px;
-                left: -20px;
+                left: -95px;
             }
 
             &.logo-stroke-2 {
@@ -107,12 +112,12 @@
 
             &.logo-stroke-1 {
                 top: -50px;
-                left: -20px;
+                left: -85px;
             }
 
             &.logo-stroke-2 {
                 top: -10px;
-                left: -50px;
+                left: 10px;
             }            
         }        
     }    
@@ -124,12 +129,12 @@
 
             &.logo-stroke-1 {
                 top: -60px;
-                left: -30px;
+                left: -80px;
             }
 
             &.logo-stroke-2 {
                 top: -30px;
-                left: -70px;
+                left: 10px;
             }            
         }        
     }
@@ -141,12 +146,12 @@
 
             &.logo-stroke-1 {
                 top: -60px;
-                left: -50px;
+                left: -95px;
             }
 
             &.logo-stroke-2 {
                 top: -30px;
-                left: -80px;
+                left: -10px;
             }            
         }
     }
@@ -158,7 +163,7 @@
 
             &.logo-stroke-1 {
                 top: -80px;
-                left: -10px;
+                left: -90px;
             }
 
             &.logo-stroke-2 {
