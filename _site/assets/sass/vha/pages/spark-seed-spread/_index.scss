@@ -1,33 +1,95 @@
-/*
-----------------------------------------
-Pages Index SCSS
-----------------------------------------
-Commented out as an example. Be sure to include scss files in this directory.
+#sss-title {
+    h1 {
+        font-size: 40px;
+        font-weight: 600;
+        color: white;
+    }
 
-@forward "masthead";
-*/
+    h2 {
+        color: white !important;
+    }
 
-#sss-title{
+    .sss-title {
+        background: url(../img/sss/title-bg.png) no-repeat !important;
+    }
 
-
-h1{
-    font-size: 40px;
-    font-weight: 600;
-
-} 
-h2{
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 1.6;
-} 
-
-.sss-title{
-    background:  url(../img/sss/title-bg.png) no-repeat !important;
-}
-.sss-title-btm-border{
-    background:  url(../img/sss/title-btm-border.png) no-repeat !important;
+    .sss-title-btm-border {
+        background: url(../img/sss/title-btm-border.png) no-repeat !important;
+    }
 }
 
+#sss {
+    h2 {
+        color: #008480;
+        font-size: 22px;
+    }
 
+    h3 {
+        font-size: 40px;
+        color: #1b1b1b;
+    }
 
+    button {
+        background: #89b04a !important;
+    }
+}
+
+#secondary-row2 .row2-lines-right {
+    right: -162px;
+    top: -3%;
+
+    & img {
+        width: 90%;
+    }
+
+    @media screen and (max-width: 1025px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1026px) {
+        display: block;
+    }
+
+    @media screen and (min-width: 1026px) and (max-width: 1400px) {
+        right: -20%;
+        top: -15%;
+
+        & img {
+            width: 90%;
+        }
+    }
+
+    @media screen and (min-width: 2500px) {
+        right: 15%;
+    }
+}
+
+#secondary-row2 .row2-lines-left {
+    left: -75px;
+    top: 9%;
+
+    & img {
+        width: 90%;
+    }
+
+    @media screen and (max-width: 1025px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1026px) {
+        display: block;
+    }
+
+    @media screen and (min-width: 1026px) and (max-width: 1400px) {
+        left: -90px;
+        top: 8%;
+
+        & img {
+            width: 90%;
+        }
+    }
+
+    @media screen and (min-width: 2500px) {
+        right: 15%;
+    }
 }
