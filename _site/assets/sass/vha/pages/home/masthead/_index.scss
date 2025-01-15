@@ -170,6 +170,151 @@
 
     }
 
+    &__logo-stroke {
+        position: absolute;
+        z-index: -1;
+        // margin-top: -35rem;
+    }
+
+    @include at-media(mobile) {
+        &__logo-stroke { 
+            height: 55%;
+            width: 55%;
+
+            &.logo-stroke-1 {
+                top: 11rem;
+                right: 2rem;
+            }
+
+            &.logo-stroke-2 {
+                top: 9rem;
+                right: -1rem;
+            }            
+        }        
+    }
+
+    @include at-media(tablet-lg) {
+        &__logo-stroke {
+            height: 55%;
+            width: 55%;
+
+            &.logo-stroke-1 {
+                top: 13rem;
+                right: 0rem;
+            }
+
+            &.logo-stroke-2 {
+                top: 11rem;
+                right: -3rem;
+            }            
+        }        
+    }
+
+    @include at-media(desktop) {
+        &__logo-stroke { 
+            height: 55%;
+            width: 55%;
+
+            &.logo-stroke-1 {
+                top: 14rem;
+                right: 0rem;
+            }
+
+            &.logo-stroke-2 {
+                top: 11rem;
+                right: -3rem;
+            }     
+        }
+    }
+  
+    @include at-media(desktop-lg) {
+        &__logo-stroke { 
+            height: 540px;
+            width: 530px;
+
+            &.logo-stroke-1 {
+                top: 12rem;
+                right: 0rem;
+            }
+
+            &.logo-stroke-2 {
+                top: 11rem;
+                right: -2rem;
+            }            
+        }
+    }
+  
+    @include at-media(widescreen) {
+        &__logo-stroke { 
+            height: 640px;
+            width: 630px;
+
+            &.logo-stroke-1 {
+                top: 14rem;
+                right: -1rem;
+            }
+
+            &.logo-stroke-2 {
+                top: 10rem;
+                right: -3rem;
+            }            
+        }
+    }
+    
+    &__svg-bg {
+        position: relative;
+    }
+
+    @include at-media(mobile) {
+        &__svg-bg {
+            position: relative;
+            top: -6rem;
+            left: 0rem;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    @include at-media(tablet-lg) {
+        &__svg-bg {
+            position: relative;
+            top: -16rem;
+            left: 3rem;
+            height: 80%;
+            width: 80%;
+        }
+    }
+
+    @include at-media(desktop) {
+        &__svg-bg {
+            position: relative;
+            top: -19rem;
+            left: 6rem;
+            height: 80%;
+            width: 80%;
+        }
+    }
+
+    @include at-media(desktop-lg) {
+        &__svg-bg {
+            position: relative;
+            top: -15rem;
+            left: 13rem;
+            height: 60%;
+            width: 60%;
+        }
+    }
+
+    @include at-media(widescreen) {
+        &__svg-bg {
+            position: relative;
+            top: -18rem;
+            left: 17rem;
+            height: 60%;
+            width: 60%;
+        }
+    }
+
 }
 
 @-webkit-keyframes GradientRotation {
