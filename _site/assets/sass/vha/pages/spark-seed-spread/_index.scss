@@ -298,3 +298,39 @@
     left: 0;
     top:0;
 }
+
+
+.img-sss{
+    display: inherit;
+    margin: inherit;
+
+}
+
+@media (max-width: 1023px) {
+    .img-sss{
+    display: block;
+    margin: 0 auto 30px;
+}
+
+}
+
+
+
+
+.rect {
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: #e4eddf;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .rectl {
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #e4eddf;
+    z-index: 0;
+    position: absolute;
+  }
