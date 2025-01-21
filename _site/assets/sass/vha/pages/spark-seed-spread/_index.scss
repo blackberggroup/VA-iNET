@@ -334,3 +334,31 @@
     z-index: 0;
     position: absolute;
   }
+
+
+  .sss-graphic {
+    position: relative;
+    background-color: #00524F; 
+  }
+  
+  .sss-graphic::before,
+  .sss-graphic::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  .sss-graphic::before {
+    left: -200px;
+    background-image: url('../../assets/img/sss/bkgrd-left.webp');
+  }
+  
+  .sss-graphic::after {
+    right: -200px;
+    background-image: url('../../assets/img/sss/bkgrd-right.webp');
+  }
