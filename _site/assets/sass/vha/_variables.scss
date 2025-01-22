@@ -2,13 +2,13 @@
 
 $vha-theme-color-primary-lightest: color("violet-warm-5"); // #f8f0f9
 // $vha-theme-color-primary-light: color("magenta-30"); #e895b3 should be #B0CD56
-$vha-theme-color-primary-light: #B0CD56;
+$vha-theme-color-primary-light: color("green-warm-30v"); // should be #B0CD56 from Figma;
 // $vha-theme-color-primary: color("magenta-40v"); #fd4496 should be #6BA951
-$vha-theme-color-primary: #6BA951;
+$vha-theme-color-primary: color("green-40v"); // should be #6BA951 from Figma;
 // $vha-theme-color-primary-dark: color("violet-warm-60v"); #93348c should be #018A86
-$vha-theme-color-primary-dark: #018A86;
+$vha-theme-color-primary-dark: color("mint-cool-50v"); // should be #018A86 from Figma;
 
 // $vha-theme-color-pink-lightest: #F9D8EA; should be #E2EEDD
-$vha-theme-color-green1-lightest: #E2EEDD;
+$vha-theme-color-green1-lightest: color("green-cool-10"); // should be #E2EEDD from Figma;
 // $vha-theme-color-violet-lightest: #F8F0F9; should be #EDF3D8
-$vha-theme-color-green2-lightest: #EDF3D8;
+$vha-theme-color-green2-lightest: color("green-5"); // should be #EDF3D8 from Figma;
