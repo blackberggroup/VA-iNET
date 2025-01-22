@@ -15,7 +15,7 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
-    
+
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
@@ -42,7 +42,7 @@ jobs:
     - name: 👀 Lighthouse
       uses: foo-software/lighthouse-check-action@master
       with:
-        urls: 'https://www.dev-innovation.bgsandbox.com/ecosystem/views/innovators-network/index.html, https://www.dev-innovation.bgsandbox.com/ecosystem/views/innovators-network/spark-seed-spread/index.html,'
+        urls: 'https://www.dev-innovation.bgsandbox.com/ecosystem/views/innovators-network/index.html, https://www.dev-innovation.bgsandbox.com/ecosystem/views/innovators-network/spark-seed-spread/index.html'
         device: all  
         awsAccessKeyId: ${{ secrets.LIGHTHOUSE_CHECK_AWS_ACCESS_KEY_ID }}
         awsBucket: ${{ secrets.LIGHTHOUSE_CHECK_AWS_BUCKET }}
