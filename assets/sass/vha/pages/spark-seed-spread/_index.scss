@@ -252,8 +252,8 @@
 }
 
 #secondary-row2 .row2-lines-left {
-    left: -75px;
-    top: -15%;
+    left: -127px;
+    top: -11%;
 
     & img {
         width: 90%;
@@ -311,11 +311,21 @@
     margin: inherit;
 
 }
+.img-sss.goal{
+    float:right;
+    max-width: 105%;
+
+}
 
 @media (max-width: 1023px) {
     .img-sss{
     display: block;
     margin: 0 auto 30px;
+}
+.img-sss.goal{
+    float:inherit;
+    max-width: 100%;
+
 }
 
 }
