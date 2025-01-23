@@ -1,7 +1,7 @@
 @use "uswds-core" as *;
 @use "../../../variables" as *;
 
-.masthead {
+.masthead-home {
     background: linear-gradient(235deg, $vha-theme-color-primary-dark, $vha-theme-color-primary, $vha-theme-color-primary-dark);
     background-size: 600% 600%;
     position: relative;
@@ -308,7 +308,7 @@
     @include at-media(widescreen) {
         &__svg-bg {
             position: relative;
-            top: -18rem;
+            top: -20rem;
             left: 17rem;
             height: 60%;
             width: 60%;
@@ -349,7 +349,7 @@
     100%{left: 0%;}    
 }
 
-#masthead {
+#masthead-home {
     z-index: 1 !important;
     position: relative;
 }
