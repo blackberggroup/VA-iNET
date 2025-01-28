@@ -1,4 +1,11 @@
 @use "uswds-core" as *;
+@use "../../../variables" as *;
+
+
+.offset-background {
+    background-color: $vha-theme-color-green2-lightest;
+    z-index: -1;
+}
 
 @include at-media(mobile) {
     .program-video {
@@ -12,10 +19,8 @@
         }
     }
     .offset-background {
-        background: #EDF3D8;
         height: 14em;
         padding-top: 1em;
-        z-index: -1;
     }
 }
 
@@ -31,10 +36,8 @@
         }
     }
     .offset-background {
-        background: #EDF3D8;
         height: 19em;
         padding-top: 1em;
-        z-index: -1;
     }
 }
 
@@ -50,10 +53,8 @@
         }
     }
     .offset-background {
-        background: #EDF3D8;
         height: 23em;
         padding-top: 1em;
-        z-index: -1;
     }
 }
 
@@ -69,10 +70,8 @@
         }
     }
     .offset-background {
-        background: #EDF3D8;
         height: 27em;
         padding-top: 1em;
-        z-index: -1;
     }
 }
 
@@ -84,10 +83,8 @@
         top: -30em;
     }
     .offset-background {
-        background: #EDF3D8;
         height: 30em;
         padding-top: 1em;
-        z-index: -1;
     }
 }
 
@@ -99,10 +96,8 @@
         top: -35em;
     }
     .offset-background {
-        background: #EDF3D8;
         height: 35em;
         padding-top: 1em;
-        z-index: -1;
     }
 }
 
@@ -114,9 +109,7 @@
         top: -36em;
     }
     .offset-background {
-        background: #EDF3D8;
         height: 36em;
         padding-top: 1em;
-        z-index: -1;
     }
 }

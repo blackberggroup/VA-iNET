@@ -4,15 +4,15 @@
 .overlay-content {
 
     h4 {
-        color: color("mint-cool-50v");
+        color: $vha-theme-color-primary-dark;
     }
 
 
     &__wrapper {
-        z-index: 5;
+        z-index: z-index(100);
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        background-color: #EDF3D8;
+        background-color: $vha-theme-color-green2-lightest;
 
         @include at-media(tablet) {
             border-bottom-left-radius: .5rem;
@@ -21,20 +21,8 @@
     }
 
     .vha-darker-green {
-        background-color: #E2EEDD !important;
+        background-color: $vha-theme-color-green1-lightest !important;
     }
-
-    // &__wrapper2 {
-    //     z-index: 5;
-    //     border-bottom-left-radius: 0;
-    //     border-bottom-right-radius: 0;
-    //     background-color: #E2EEDD;
-
-    //     @include at-media(tablet) {
-    //         border-bottom-left-radius: .5rem;
-    //         border-bottom-right-radius: .5rem;
-    //     }        
-    // }
 
     &__image-column {
         position: relative;
@@ -61,7 +49,7 @@
     &__image {
         border-bottom-left-radius: .5rem;
         border-bottom-right-radius: .5rem;
-        background-color: #EDF3D8;
+        background-color: $vha-theme-color-green2-lightest;
 
         img {
             display: block;
@@ -76,7 +64,7 @@
     }
 
     &__logo-stroke {
-        z-index: -1;
+        z-index: z-index(bottom);
         height: 80%;
         width: 80%;
 

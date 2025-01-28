@@ -11,7 +11,8 @@
     animation: GradientRotation 40s ease infinite;
 
     height: 81vw;
-    margin-bottom: 16%;
+    // margin-bottom: 16%;
+    margin-bottom: 5rem;
 
     @include at-media(mobile) {
         // padding-top: 78%;
@@ -52,7 +53,8 @@
     @include at-media(widescreen) {
         height: 730px;
         padding-top: 0;
-        margin-bottom: 120px;
+        // margin-bottom: 120px;
+        margin-bottom: 5rem;
     }
 
     &__content-wrapper {
@@ -81,7 +83,7 @@
     &__tagline {
         font-size: 1.375em;
         margin-bottom: 48px;
-        color: #fff;
+        // color: #fff;
     }
 
     &__border {

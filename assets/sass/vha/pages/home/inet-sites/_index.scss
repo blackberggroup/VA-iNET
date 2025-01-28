@@ -1,4 +1,6 @@
 @use "uswds-core" as *;
+@use "../../../variables" as *;
+
 .site-location-map .usa-card__container {
     background-color: #fff;
     border: none;
@@ -9,5 +11,5 @@
 }
 
 .site-location-map strong {
-    color: #008480;
+    color: $vha-theme-color-primary-dark;
 }
