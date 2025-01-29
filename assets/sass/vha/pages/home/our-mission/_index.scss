@@ -1,5 +1,43 @@
 @use "uswds-core" as *;
 
-.our-mission {
-    margin-top: -3rem;
+@include at-media(mobile) {
+    .our-mission {
+        margin-top: 9rem;
+    }
+}
+
+@include at-media(mobile-lg) {
+    .our-mission {
+        margin-top: 0;
+    }
+}
+
+@include at-media(tablet) {
+    .our-mission {
+        margin-top: 0;
+    }
+}
+
+@include at-media(tablet-lg) {
+    .our-mission {
+        margin-top: 0;
+    }
+}
+
+@include at-media(desktop) {
+    .our-mission {
+        margin-top: -1rem;
+    }
+}
+
+@include at-media(desktop-lg) {
+    .our-mission {
+        margin-top: -1rem;
+    }
+}
+
+@include at-media(widescreen) {
+    .our-mission {
+        margin-top: 0;
+    }
 }
