@@ -1,6 +1,21 @@
 @use "uswds-core" as *;
 @use "../../../variables" as *;
 
+#product-marketplace {
+    @include at-media(mobile) {
+        margin-top: -4rem;
+    }
+    @include at-media(tablet) {
+        margin-top: -5rem;
+    }
+    @include at-media(desktop) {
+        margin-top: -5rem;
+    }
+    @include at-media(desktop-lg) {
+        margin-top: -7rem;
+    }
+}
+
 .overlay-content {
 
     h2 {
