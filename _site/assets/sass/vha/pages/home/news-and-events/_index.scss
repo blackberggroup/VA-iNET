@@ -29,6 +29,7 @@
 
   .usa-card__body {
     text-align: left;
+    padding-top: 0;
 
     h3 {
       font-size: 22px;
@@ -43,12 +44,17 @@
     border: none;
   }
 
-  .usa-card__media img {
-    border-radius: 4px 4px 0px 0px;
+  .usa-card__media {
+
+    line-height: 0;
+
+    img {
+      border-radius: 4px 4px 0px 0px;
+    }
   }
 
   .usa-card__body > :first-child, .usa-card__header > :first-child {
-    margin-top: 14px !important;
+    margin-top: 16px !important;
   }
 
   .owl-nav {
