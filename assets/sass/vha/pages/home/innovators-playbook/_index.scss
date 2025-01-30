@@ -1,0 +1,22 @@
+@use "uswds-core" as *;
+
+.innovators-playbook {
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    &__container {
+        background-color: #86BDBA;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__content {
+        position: relative;
+    }
+
+    &__image {
+        position: relative;
+    }
+}

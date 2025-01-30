@@ -1,0 +1,170 @@
+@use "uswds-core" as *;
+
+#inet-news {
+    
+    background: linear-gradient(78deg, #015C5A 5.29%, #028A86 78.25%, #7FB135 97.64%);
+
+    .usa-button {
+        width: auto;
+        font-size: 16px;
+        box-shadow: inset 0 0 0 2px #fff;
+        color: #fff;
+        background-color: transparent;
+    }
+
+    .usa-button:hover {
+        box-shadow: inset 0 0 0 2px color("gray-cool-10");
+        color: color("gray-cool-10");
+        background-color: transparent;
+    }
+
+    h2 {
+        color:#fff;
+    }
+
+  a {
+    text-decoration: none !important;
+    color: color("gray-90");
+  }
+
+  .usa-card__body {
+    text-align: left;
+    padding-top: 0;
+
+    h3 {
+      font-size: 22px;
+      line-height: normal;
+    }
+  }
+
+  .usa-card__container {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    height: 99% !important;
+    background: #fff !important;
+    border: none;
+  }
+
+  .usa-card__media {
+
+    line-height: 0;
+
+    img {
+      border-radius: 4px 4px 0px 0px;
+    }
+  }
+
+  .usa-card__body > :first-child, .usa-card__header > :first-child {
+    margin-top: 16px !important;
+  }
+
+  .owl-nav {
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .owl-prev, .owl-next {
+    border-radius: 4px;
+    background: color("green-30v");
+  }
+
+  .owl-stage-outer {
+    overflow: hidden;
+    // padding-bottom: 2.5rem;
+  }
+
+  .owl-carousel.owl-loaded {
+    display: block;
+    padding: 0;
+  }
+
+  .owl-nav, .owl-dots {
+    display: none;
+  }
+
+// uncomment if/when nav buttons are needed
+//   @include at-media(mobile) { // 320px
+//     .owl-carousel .owl-nav button.owl-prev {
+//         display: inline !important;
+//         top: 97%;
+//         left: 30.5%;
+//         border-radius: 4px !important;
+//         background: #7FB135 !important;
+//     }
+//     .owl-carousel .owl-nav button.owl-next {
+//         display: inline !important;
+//         top: 97%;
+//         right: 30.5%;
+//         border-radius: 4px !important;
+//         background: #7FB135 !important;
+//     }
+//     }
+
+//     @include at-media(mobile-lg) { // 480px
+//         .owl-carousel .owl-nav button.owl-prev {
+//             top: 97%;
+//             left: 37%;
+//         }
+//         .owl-carousel .owl-nav button.owl-next {
+//             top: 97%;
+//             right: 37%;
+//         }
+//     }
+
+//     @include at-media(tablet) { // 640px
+//         .owl-carousel .owl-nav button.owl-prev {
+//             top: 97%;
+//             left: 40.5%;
+//         }
+//         .owl-carousel .owl-nav button.owl-next {
+//             top: 97%;
+//             right: 40.5%;
+//         }
+//     }
+
+//     @include at-media(tablet-lg) { // 880px
+//         .owl-carousel .owl-nav button.owl-prev {
+//             top: 97%;
+//             left: 43%;
+//         }
+//         .owl-carousel .owl-nav button.owl-next {
+//             top: 97%;
+//             right: 43%;
+//         }
+//     }
+
+//     @include at-media(desktop) { // 1024px
+//         .owl-carousel .owl-nav button.owl-prev {
+//             top: 97%;
+//             left: 44%;
+//         }
+//         .owl-carousel .owl-nav button.owl-next {
+//             top: 97%;
+//             right: 44%;
+//         }
+//     }    
+
+//     @include at-media(desktop-lg) { // 1200px
+//         .owl-carousel .owl-nav button.owl-prev {
+//             top: 97%;
+//             left: 45%;
+//         }
+//         .owl-carousel .owl-nav button.owl-next {
+//             top: 97%;
+//             right: 45%;
+//         }
+//     }
+
+//     @include at-media(widescreen) { // 1400px
+//         .owl-carousel .owl-nav button.owl-prev {
+//             top: 97%;
+//             left: 45.5%;
+//         }
+//         .owl-carousel .owl-nav button.owl-next {
+//             top: 97%;
+//             right: 45.5%;
+//         }
+//     }
+}

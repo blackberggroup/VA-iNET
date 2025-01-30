@@ -6,3 +6,12 @@
         color: #{color("base-lightest")};
     }
 }
+.vha-button--primary {
+    // background-color: #{color("green-vivid-30v")};
+    background-color: #7fb135
+}
+
+.vha-button--primary:hover {
+    // background-color: #{color("green-vivid-40v")};
+    background-color: #719f2a;
+}

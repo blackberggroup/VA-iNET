@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <title>VA Website Template</title>
+  <meta name="description" content="VHA Innovators Network (iNET) is a bustling community of employees united by a desire to solve healthcare problems and engage in shared learning.">
+  <meta name="keywords" content="Innovation, Specialist, Healthcare, Incubator, Spark-Seed-Spread">
+  <title>VHA - Innovators Network</title>
 
-  <meta property="og:title" content="((TITLE))">
-  <meta property="og:url" content="((URL))">
-  <meta property="og:description" content="((DESCRIPTION))">
+  <meta property="og:title" content="VHA - Innovators Network">
+  <meta property="og:url" content="https://www.innovation.va.gov/ecosystem/views/innovators-network/">
+  <meta property="og:description" content="VHA Innovators Network (iNET) is a bustling community of employees united by a desire to solve healthcare problems and engage in shared learning.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="((OG:IMAGE URL))">
+  <meta property="og:image" content="https://innovation.va.gov/ecosystem/views/innovators-network/assets/img/home/og-image.jpg">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -30,7 +30,17 @@
       {% include "header.html" %}
       
         <main>
-            <div style="height: 200px;"></div>
+          {% include "home/masthead.html" %}
+          {% include "home/our-mission.html" %}
+          {% include "home/sss-greenhouse-fundamentals.html" %}
+          {% include "home/inet-video.html" %}
+          {% include "home/inet-sites.html" %}
+          {% include "home/product-marketplace.html" %}
+          {% include "home/innovators-report.html" %}
+          {% include "home/innovators-spotlight.html" %}
+          {% include "home/innovators-playbook.html" %}
+          {% include "home/news-and-events.html" %}
+
         </main>
 
         {% include "footer.html" %}
@@ -40,6 +50,11 @@
 
     <script src="assets/uswds/js/uswds.min.js"></script>
     <script src="assets/js/vendors/lazy/jquery.lazy.min.js"></script>
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script src="assets/js/inet-news.js"></script>
+    <script src="assets/js/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/js/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendors/parallax-scroll/jquery.parallax-scroll.js"></script>
     <script src="assets/js/functions.js"></script>
 
 </body>
