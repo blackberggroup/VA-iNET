@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-    jQuery("#mapsvg").mapSvg({
+    var mapInstance = jQuery("#mapsvg").mapSvg({
         markerLastID: 7,
         disableAll: true,
         width: 593.3779761904764,
@@ -47,7 +47,7 @@ jQuery(document).ready(function() {
             isLink: false,
             tooltip: "<strong>San Francisco VA Health Care System</strong>",
             popover: "<strong>San Francisco VA Health Care System<</strong>",
-            data: {},
+            data: { stateId: "US-CA" },
             src: "assets/img/map-svg/default-pin.svg",
             width: 26,
             height: 30,
@@ -58,7 +58,7 @@ jQuery(document).ready(function() {
             isLink: false,
             tooltip: "<strong>VA Greater Los Angeles Healthcare System</strong>",
             popover: "<strong>VA Greater Los Angeles Healthcare System</strong>",
-            data: {},
+            data: { stateId: "US-CA" },
             src: "assets/img/map-svg/default-pin.svg",
             width: 26,
             height: 30,
@@ -69,7 +69,7 @@ jQuery(document).ready(function() {
             isLink: false,
             tooltip: "<strong>VA Long Beach Healthcare System</strong>",
             popover: "<strong>VA Long Beach Healthcare System</strong>",
-            data: {},
+            data: { stateId: "US-CA" },
             src: "assets/img/map-svg/default-pin.svg",
             width: 26,
             height: 30,
@@ -80,7 +80,7 @@ jQuery(document).ready(function() {
             isLink: false,
             tooltip: "<strong>VA Sierra Nevada Health Care System</strong>",
             popover: "<strong>VA Sierra Nevada Health Care System</strong>",
-            data: {},
+            data: { stateId: "US-NV" },
             src: "assets/img/map-svg/default-pin.svg",
             width: 26,
             height: 30,
@@ -91,7 +91,7 @@ jQuery(document).ready(function() {
             isLink: false,
             tooltip: "<strong>New Mexico VA Health Care System</strong>",
             popover: "<strong>New Mexico VA Health Care System</strong>",
-            data: {},
+            data: { stateId: "US-NM" },
             src: "assets/img/map-svg/default-pin.svg",
             width: 26,
             height: 30,
@@ -102,7 +102,7 @@ jQuery(document).ready(function() {
             isLink: false,
             tooltip: "<strong>VA Salt Lake City Healthcare System</strong>",
             popover: "<strong>VA Salt Lake City Healthcare System</strong>",
-            data: {},
+            data: { stateId: "US-UT" },
             src: "assets/img/map-svg/default-pin.svg",
             width: 26,
             height: 30,
@@ -124,7 +124,7 @@ jQuery(document).ready(function() {
             isLink: false,
             tooltip: "<strong>VA Western Colorado Health Care System</strong>",
             popover: "<strong>VA Western Colorado Health Care System</strong>",
-            data: {},
+            data: { stateId: "US-CO" },
             src: "assets/img/map-svg/default-pin.svg",
             width: 26,
             height: 30,
@@ -441,5 +441,30 @@ jQuery(document).ready(function() {
         responsive: true
     });
 
+    var map = jQuery("#mapsvg").mapSvg();
+
     $('#mapsvg').css('background','');
+
+  $(document).on("click", ".mapsvg-marker", function () {
+
+    var marker = $(this);
+    var markerId = marker.attr("id"); 
+    var markerData = map.getMarker(markerId);
+
+    if (!markerData || !markerData.data || !markerData.data.stateId) {
+        console.warn("No state linked for marker:", markerId);
+        return;
+    }
+
+    var stateId = markerData.data.stateId; 
+
+    $(".mapsvg-region").css("fill", "#ffffff");
+
+    var stateElement = $("#" + stateId);
+    if (stateElement.length) {
+        stateElement.css("fill", "#EAF4DD"); 
+    } else {
+        console.warn("State element not found for ID:", stateId);
+    }
+});
 });

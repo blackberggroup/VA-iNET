@@ -15,3 +15,24 @@
 <script src="assets/js/vendors/map-svg/jquery.nanoscroller.min.js"></script>
 <script src="assets/js/vendors/map-svg/mapsvg.min.js"></script>
 <script src="assets/js/vendors/map-svg/mapsvg.functions.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const mapContainer = document.getElementById("mapsvg");
+
+    // Use MutationObserver to detect when paths are added dynamically
+    const observer = new MutationObserver(() => {
+        document.querySelectorAll(".mapsvg-region").forEach(region => {
+            region.addEventListener("mouseenter", function () {
+                this.style.fill = "#ffcc00"; // Change to desired hover color
+            });
+            region.addEventListener("mouseleave", function () {
+                this.style.fill = ""; // Resets to original color
+            });
+        });
+    });
+
+    observer.observe(mapContainer, { childList: true, subtree: true });
+});
+
+
+</script>
