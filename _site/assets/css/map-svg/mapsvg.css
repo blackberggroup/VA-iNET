@@ -34,7 +34,7 @@
 .mapsvg-disabled {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
-    pointer-events: all;
+    pointer-events: none;
     cursor: default;
 }
 .mapsvg text, .mapsvg tspan {
