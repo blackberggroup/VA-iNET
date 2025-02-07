@@ -1,9 +1,9 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
 
-  // Define the Fellows collection
-  eleventyConfig.addCollection("product", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("product/*.md");
+  // Define the product collection
+  eleventyConfig.addCollection("vaipm/products", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("products/*.md");
   });
 
   let pathPrefix = "/";
@@ -18,6 +18,7 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "liquid",
     dir: {
+      input: ".", // Ensures Eleventy picks up content from the root
       layouts: "_layouts",
       data: "_data",
     },
