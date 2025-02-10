@@ -1,7 +1,7 @@
 ---
-Id: "14"
-ItemName: "The Belongings Buddy"
-Type: "F"
+id: "14"
+item_name: "The Belongings Buddy"
+type: "F"
 item_number: "BB-L169"
 item_price: "See website for pricing."
 item_img_name: "belongings-buddy"
@@ -18,7 +18,7 @@ shipping_estimated_timeline: "Ships immediately upon ordering being placed."
 intrapreneur_img_name: "blank-inventor"
 keywords: ""
 hashtags: "#inpatient; #nursing; #Veteran belongings"
-quote: >
+quote: |
     &#34;Through VA innovation we have been empowered to follow through with our idea for the &#39;Belongings Buddy&#39; (a means for Veterans to have their small belongings together in one place). It has been exciting and motivating to see this idea come to fruition and to have it so greatly supported across the VHA system. Without the support of iNET innovation it is unlikely to have been developed. The support, encouragement, and networking has been an amazing experience.&#34;
 facility_location: "Central Virginia VA Health Care System"
 how_to_order: >

@@ -1,7 +1,7 @@
 ---
-Id: "19"
-ItemName: "POCUS Guide"
-Type: ""
+id: "19"
+item_name: "POCUS Guide"
+type: ""
 item_number: ""
 item_price: ""
 item_img_name: "pocus-guide"
@@ -24,6 +24,6 @@ how_to_order: ""
 inet_program: "SSS"
 item_status: "CS"
 layout: "products.njk"
-item_description: >
+item_description: |
     Point of Care Ultrasound (POCUS) is a handheld, portable, battery powered device that is shaped like an ultrasound probe. Two light sources that make probe orientation and movement easy to see, both in-person and during remote applications such as tele-POCUS over web-based video conferencing. &#34;POCUS Guide&#34; allows for effective communication of probe positioning during diagnostic and procedural applications.
 ---

@@ -1,7 +1,7 @@
 ---
-Id: "21"
-ItemName: "XanderGlasses"
-Type: "V"
+id: "21"
+item_name: "XanderGlasses"
+type: "V"
 item_number: "XG01"
 item_price: "$4,999/unit + shipping"
 item_img_name: "XanderGlasses"

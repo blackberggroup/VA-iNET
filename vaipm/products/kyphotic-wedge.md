@@ -1,7 +1,7 @@
 ---
-Id: "17"
-ItemName: "Kyphotic Wedge"
-Type: "F"
+id: "17"
+item_name: "Kyphotic Wedge"
+type: "F"
 item_number: ""
 item_price: ""
 item_img_name: "kyphotic-wedge"

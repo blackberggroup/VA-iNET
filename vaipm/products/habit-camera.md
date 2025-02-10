@@ -1,7 +1,7 @@
 ---
-Id: "22"
-ItemName: "Habit Camera"
-Type: "B"
+id: "22"
+item_name: "Habit Camera"
+type: "B"
 item_number: "001"
 item_price: "$149"
 item_img_name: "habit-camera"
@@ -18,7 +18,7 @@ shipping_estimated_timeline: "Ships immediately upon order being placed. "
 intrapreneur_img_name: "blank-inventor"
 keywords: "diabetes, sci, mobility"
 hashtags: "#Diabetes; #SCI; #Mobility"
-quote: >
+quote: |
     The problem being solved&#58; For people with spinal cord injuries and other conditions, such as peripheral neuropathy and skin cancer, daily inspections of the skin are recommended to identify early-stage wounds or lesions. Visualization of early-stage wounds and lesions may be challenging particularly if on the back side of the body, or bottom of the feet. If not detected early, the wound or lesion can lead to complications, amputation, or even death. Despite the known benefits of daily skin inspection, many people forego or are unable to perform these checks because of limitations with current technologies.
     
     The technology solution&#58; The Habit Camera is a handheld high-definition digital camera, which wirelessly links and displays real time images to the user&#39;s personal cellphone or tablet. A telescoping handle enables quicker self-inspection and a flexible goose-neck and LED light allow independent and private viewing of even the most difficult to see and reach skin locations. When concerning spots are identified, a closeup view can be obtained by zooming in on the area of interest, and an image can be captured using voice commands. If skin changes are detected during self-inspection, images or video can be shared with caregivers via secure website, email, or text.
@@ -33,7 +33,7 @@ how_to_order: ""
 inet_program: "TT"
 item_status: "A"
 layout: "products.njk"
-item_description: >
+item_description: |
     Daily skin inspection is crucial for those with limited sensation, wounds, or ulcers, but consistency can be challenging. By promptly identifying pressure sores or wounds early on, you can take immediate action to prevent further complications. Neglecting thorough daily skin inspection can delay the detection of life-threatening issues.
     
     Habit Camera revolutionizes skin inspection by providing a simple and effective tool accessible to everyone. It sets a new standard in skin inspection, enhancing your quality of life, overall health, and longevity. With early problem detection, you and your healthcare team can swiftly seek solution.

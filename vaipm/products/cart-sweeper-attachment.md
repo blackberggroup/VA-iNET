@@ -1,7 +1,7 @@
 ---
-Id: "2"
-ItemName: "Cart Sweeper Attachment"
-Type: "F"
+id: "2"
+item_name: "Cart Sweeper Attachment"
+type: "F"
 item_number: "Coming soon! (002)"
 item_price: "Coming soon!"
 item_img_name: "cart-sweeper"
@@ -19,7 +19,7 @@ shipping_estimated_timeline: >
 intrapreneur_img_name: "blank-inventor"
 keywords: "Floor, Sweeper, Cart, Attachment, housekeepers, Larry, Hillson, Reno, cart, debris, clean, hospital, cleanliness, productivity"
 hashtags: "#EMS; #cleanliness"
-quote: >
+quote: |
     &#34;We can work smarter, not harder. Developing this product opened me up to a large network and the depth of iNET support that VA offers when they bring an idea to the forefront. That was an eye-opener. It has allowed me to help others who have had similar innovations to steer them in the right direction.
     
     VA Innovation made me realize the VA is one of the biggest innovators out there in the nation&#39;s healthcare system! We are on the forefront of many new products in our industry!&#34;

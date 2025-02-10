@@ -1,7 +1,7 @@
 ---
-Id: "12"
-ItemName: "DropEase"
-Type: "V"
+id: "12"
+item_name: "DropEase"
+type: "V"
 item_number: "Coming soon! (003)"
 item_price: "Coming soon!"
 item_img_name: "dropease"
@@ -19,7 +19,7 @@ shipping_estimated_timeline: >
 intrapreneur_img_name: "blank-inventor"
 keywords: "Drop, ease, eye, dropper, dispenser, delivery, limited, hand, dexterity, aging, squirt, administer"
 hashtags: "#eye clinic; #patient compliance; #access; #adaptive equipment; @medication management"
-quote: >
+quote: |
     &#34;iNET makes me feel that I am being heard. More importantly, [that] the Veterans are being heard. I asked what the problem was, and then strived to find the answer; then take it back to the Vets so they can tell me how to make it better.&#34;
 facility_location: "Cincinnati VA Medical Center"
 how_to_order: ""

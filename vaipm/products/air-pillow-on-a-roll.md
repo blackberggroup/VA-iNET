@@ -25,5 +25,5 @@ inet_program: "SSS"
 item_status: "CS"
 layout: "products.njk"
 item_description: >
-    Air Pillow on a Roll is a disposable, anti-infectious, single-patient use, air-filled pillow that will provide a comfortable experience for patients in both inpatient and outpatient environments. This user friendly &#34;pillow on a roll&#34; dispensing station and inflation device can be mounted on a wall in patient rooms or departments, making it immediately accessible to busy staff on the go.
+    Air Pillow on a Roll is a disposable, anti-infectious, single-patient use, air-filled pillow that will provide a comfortable experience for patients in both inpatient and outpatient environments. This user friendly pillow on a roll dispensing station and inflation device can be mounted on a wall in patient rooms or departments, making it immediately accessible to busy staff on the go.
 ---
