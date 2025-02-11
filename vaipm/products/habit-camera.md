@@ -1,0 +1,40 @@
+---
+id: "22"
+item_name: "Habit Camera"
+type: "B"
+item_number: "001"
+item_price: "$149"
+item_img_name: "habit-camera"
+item_video_link: ""
+intrapreneur_name: ""
+intrapreneur_degree: ""
+intrapreneur_title: ""
+multiple_intrapreneurs: ""
+duns_number: "11-747-7981"
+vendor: "Paratroop, LLC"
+vendor_contact_number: ""
+vendor_hyperlink: "habit-camera-exit.html"
+shipping_estimated_timeline: "Ships immediately upon order being placed. "
+intrapreneur_img_name: "blank-inventor"
+keywords: "diabetes, sci, mobility"
+hashtags: "#Diabetes; #SCI; #Mobility"
+quote: |
+    The problem being solved&#58; For people with spinal cord injuries and other conditions, such as peripheral neuropathy and skin cancer, daily inspections of the skin are recommended to identify early-stage wounds or lesions. Visualization of early-stage wounds and lesions may be challenging particularly if on the back side of the body, or bottom of the feet. If not detected early, the wound or lesion can lead to complications, amputation, or even death. Despite the known benefits of daily skin inspection, many people forego or are unable to perform these checks because of limitations with current technologies.
+    
+    The technology solution&#58; The Habit Camera is a handheld high-definition digital camera, which wirelessly links and displays real time images to the user&#39;s personal cellphone or tablet. A telescoping handle enables quicker self-inspection and a flexible goose-neck and LED light allow independent and private viewing of even the most difficult to see and reach skin locations. When concerning spots are identified, a closeup view can be obtained by zooming in on the area of interest, and an image can be captured using voice commands. If skin changes are detected during self-inspection, images or video can be shared with caregivers via secure website, email, or text.
+    
+    The tech transfer mechanisms&#58; Capt. Derek Herrera, a U.S. Marine Corps Veteran and entrepreneur who experienced a spinal cord injury in 2012 while serving in Afghanistan, became interested in partnering with VA after meeting the MADE developers at a medical conference. After learning more about the commercialization potential for the technology, Herrera worked directly with the VA Technology Transfer Program (TTP) and partnership intermediary Techlink to define the precise scope of patent rights needed to achieve his business plan, in a way that can easily be modified in the future, as necessary. The parties negotiated mutually beneficial and commercially reasonable financial terms for an exclusive license agreement, executed in 2020.
+    
+    The tech transfer excellence&#58; The Habit Camera story is a powerful example of how a technology transfer office can put VA-developed medical solutions into the hands of the patients who need them while also helping to create business opportunities for entrepreneurs, like Herrera. The VA TTP is continuing to assist Herrera beyond the licensing process. TTP has supported additional pilot studies within VA to iterate on the final product design and is helping the company navigate the VA&#39;s clinical care network as a vendor.
+    
+    The outcomes&#58; The first commercially manufactured Habit Camera devices were sold in January 2021, and the first VA purchase was made on April 18, 2022. The Habit Camera is available for purchase by patients with mobility issues may order the product directly through the company&#39;s website. In addition, at the time of this award submission, at least five VA facilities have already purchased the devices, and TTP is working with VA&#39;s Strategic Acquisition Center to confirm that the Habit Camera is a viable product for adoption throughout the VA and will be available to all VA clinicians to order for any VA patients under their care whom they think the device would help with performing daily skin inspections.
+facility_location: ""
+how_to_order: ""
+inet_program: "TT"
+item_status: "A"
+layout: "products.njk"
+item_description: |
+    Daily skin inspection is crucial for those with limited sensation, wounds, or ulcers, but consistency can be challenging. By promptly identifying pressure sores or wounds early on, you can take immediate action to prevent further complications. Neglecting thorough daily skin inspection can delay the detection of life-threatening issues.
+    
+    Habit Camera revolutionizes skin inspection by providing a simple and effective tool accessible to everyone. It sets a new standard in skin inspection, enhancing your quality of life, overall health, and longevity. With early problem detection, you and your healthcare team can swiftly seek solution.
+---
